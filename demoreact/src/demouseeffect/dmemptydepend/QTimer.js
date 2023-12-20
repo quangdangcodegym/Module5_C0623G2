@@ -4,7 +4,7 @@ export default function QTimer({ number }) {
     const [time, setTime] = useState(0);
 
     useEffect(() => {
-        console.log("CHẠY USEEFFECT", number);
+        console.log("CHẠY USEEFFECT---", number);
         const interval = setInterval(() => {
             setTime((prevTime) => prevTime + 1)
         }, 1000);
