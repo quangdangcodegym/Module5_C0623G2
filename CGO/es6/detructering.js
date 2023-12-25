@@ -1,3 +1,5 @@
+let jobs = ["Java", "React", "Angular"];
+
 /*
 // destructuring: phá hủy, phân tách
 let jobs = ["Java", "React", "Angular"];
@@ -21,7 +23,9 @@ const product = {
     }
 }
 
-let { nameStudent, info, price, ...kk } = product;
+
+
+let { nameStudent, info, price, id } = product;
 
 console.log(nameStudent);
 

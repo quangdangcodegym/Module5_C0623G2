@@ -22,7 +22,7 @@ class Helper {
 
 
 
-export default Helper;
+export default power;
 
 // trong 1 file js thì
 // 1. chỉ được export default 1 lần

@@ -1,6 +1,6 @@
 // import Helper, { power } from "./myLib.js";
 
-import Helper, * as myLib from "./myLib1.js";
+import power, { sum, power } from "./myLib1.js";
 
 /*
 // Lưu ý khi dùng import phải tạo file package.json
